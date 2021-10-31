@@ -32,7 +32,7 @@ sudo docker run hello-world
 # it will print something to say it works
 
 # incase docker-compose isn't installed
-sudo apt install docker-compose
+sudo apt-get install docker-compose
 
 # run docker with root? (no need to use "sudo" each time)
 sudo groupadd docker # create a docker group
@@ -61,7 +61,7 @@ nvidia-smi
 
 ``` bash
 # install
-sudo apt install -y nvidia-cuda-toolkit
+sudo apt-get install -y nvidia-cuda-toolkit
 
 # then check
 # check current version of cuda
